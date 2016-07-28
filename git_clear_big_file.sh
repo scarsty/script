@@ -9,5 +9,5 @@ git reflog expire --expire=now --all
 git gc --prune=now
 git gc --aggressive --prune=now
 git push origin master --force
-#git -c diff.mnemonicprefix=false -c core.quotepath=false push -v -f --tags origin master:master
+##git -c diff.mnemonicprefix=false -c core.quotepath=false push -v -f --tags origin master:master
 fi
