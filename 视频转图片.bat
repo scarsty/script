@@ -1,0 +1,1 @@
+for %%a in (*.mp4) do call 1.bat %%a
