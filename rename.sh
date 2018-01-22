@@ -1,8 +1,8 @@
 #/usr/bash
 
-for file in *.png
+for file in */*.png
 do
-newfile=$file
+newfile=$1-$file
 #newfile=${newfile/__/_}
 newfile=${newfile/N_REVERSE__/}
 newfile=${newfile/Q_L__/}
@@ -17,6 +17,7 @@ newfile=${newfile/C_/}
 newfile=${newfile/D_/}
 newfile=${newfile/E_/}
 newfile=${newfile/F_/}
+newfile=${newfile/\//-}
 echo $file '->' $newfile
 mv $file $newfile
 done
