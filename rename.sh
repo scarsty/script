@@ -1,6 +1,6 @@
 #/usr/bash
 
-for file in `/usr/bin/find . -name *.png`
+for file in `/usr/bin/find . -name "*.png"`
 do
 newfile=$file
 newfile=${newfile/.\//}
