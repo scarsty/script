@@ -6,8 +6,9 @@ newfile=$file
 newfile=${newfile/.\//}
 newfile=${newfile//\//-}
 newfile=${newfile// /}
-if [ $1 -ne "0" ]; then
-newfile=$1-$newfile
+if [ $1 -eq "1" ]; then
+DATE=`/usr/bin/date +'%Y%m%d'`
+newfile=$DATE-$newfile
 fi
 echo $file '->' $newfile
 mv "$file" "$newfile"
