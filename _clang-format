@@ -1,6 +1,7 @@
 
 BasedOnStyle: Webkit
 AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
 #AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AlignTrailingComments: true
@@ -23,4 +24,4 @@ UseTab: Never
 IndentWidth: 4
 SpacesBeforeTrailingComments: 4
 #AlignEscapedNewlines: DontAlign 
-BreakBeforeBinaryOperators: None
+BreakBeforeBinaryOperators: All
