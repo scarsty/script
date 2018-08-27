@@ -2,7 +2,7 @@
 BasedOnStyle: Webkit
 AllowShortBlocksOnASingleLine: true
 AllowShortCaseLabelsOnASingleLine: true
-#AllowShortIfStatementsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AlignTrailingComments: true
 BreakBeforeBraces: Allman
@@ -23,5 +23,6 @@ SpacesInContainerLiterals: false
 UseTab: Never
 IndentWidth: 4
 SpacesBeforeTrailingComments: 4
-#AlignEscapedNewlines: DontAlign 
+AlignEscapedNewlines: Left 
 BreakBeforeBinaryOperators: All
+#BreakConstructorInitializersStyle: AfterColon
