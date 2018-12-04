@@ -1,9 +1,10 @@
-#if [ $# == 1 ]; do
 
-#fi
-echo LIBRARY $2.dll > $1.def
+# $1: dll name, without suffix
+# $2: dll.a name, full path with suffix
+ 
+echo LIBRARY $1.dll > $1.def
 echo EXPORTS >> $1.def
-FUNCS=`nm /mingw64/lib/lib$1.dll.a | grep "I __imp_" | sed "s/.* I __imp_//"`
+FUNCS=`nm $2 | grep "I __imp_" | sed "s/.* I __imp_//"`
 
 COUNT=1
 for func in $FUNCS; do
@@ -15,4 +16,4 @@ done
 rm $1.lib
 rm $1.exp
 #lib /machine:X64 /def:$1.def
-dlltool -d $1.def -l $1.lib -D $2.dll
+dlltool -d $1.def -l $1.lib -D $1.dll
