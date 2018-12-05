@@ -15,5 +15,5 @@ done
 
 rm $1.lib
 rm $1.exp
-#lib /machine:X64 /def:$1.def
-dlltool -d $1.def -l $1.lib -D $1.dll
+"/c/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lib.exe" //machine:X64 //def:$1.def
+#dlltool -d $1.def -l $1.lib -D $1.dll

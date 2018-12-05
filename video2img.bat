@@ -1,0 +1,1 @@
+for %%a in (*.mp4) do call video2img_sub.bat %%a
