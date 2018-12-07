@@ -13,11 +13,11 @@
 | ffmpeg-batch.bat            | 批量转换文件格式                                 |
 | git_clear_big_file.sh       | 清理git中的大文件，参数为文件名                  |
 | git_find_big_file.sh        | 查找git中的大文件，参数为个数                    |
-| git_pull_all.sh             | 拉取所有git库                                    |
+| git_pull_all.sh             | 拉取目录下所有git库                              |
 | rename.sh                   | 改名                                             |
 | repair_dylib.sh             | 修复依赖的动态库（Mac）                          |
 | toutf8.sh                   | 转文件为utf-8带bom                               |
-| update_exist_file.sh        |                                                  |
-| 关闭测试模式.bat            | 关闭Windows测试模式                              |
+| update_exist_file.sh        | 从目录中复制更新的文件                            |
 | video2img.bat               | 转换视频到图片                                   |
 | video2img_sub.bat           | 转换视频到图片子程序                             |
+| 关闭测试模式.bat            | 关闭Windows测试模式                              |
