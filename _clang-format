@@ -25,4 +25,5 @@ IndentWidth: 4
 SpacesBeforeTrailingComments: 4
 AlignEscapedNewlines: DontAlign 
 BreakBeforeBinaryOperators: All
-#BreakConstructorInitializersStyle: AfterColon
+BreakConstructorInitializersStyle: AfterColon
+
