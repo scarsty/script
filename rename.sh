@@ -1,6 +1,12 @@
 #/usr/bash
+
+echo "useage:"
+echo "  no args   Move all files in sub paths here"
+echo "  1         Use current date as prefix"
+echo "  2 prefix  Assign a prefix"
+
 IFS=$(echo -en "\n\b")
-for file in `/usr/bin/find . -name "*.png"`
+for file in `/usr/bin/find . -name "*.*"`
 do
     newfile=$file
     newfile=${newfile/.\//}

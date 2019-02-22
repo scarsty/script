@@ -23,6 +23,6 @@ SpacesInContainerLiterals: false
 UseTab: Never
 IndentWidth: 4
 SpacesBeforeTrailingComments: 4
-AlignEscapedNewlines: Left 
+AlignEscapedNewlines: DontAlign 
 BreakBeforeBinaryOperators: All
 #BreakConstructorInitializersStyle: AfterColon

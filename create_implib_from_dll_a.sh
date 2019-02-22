@@ -1,6 +1,6 @@
 
-# $1: dll name, without suffix
-# $2: dll.a name, full path with suffix
+echo '$1: dll name, without suffix'
+echo '$2: dll.a name, full path with suffix'
  
 echo LIBRARY $1.dll > $1.def
 echo EXPORTS >> $1.def
