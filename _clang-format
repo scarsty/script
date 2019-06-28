@@ -28,4 +28,5 @@ BreakBeforeBinaryOperators: All
 BreakConstructorInitializers: BeforeColon
 BreakBeforeTernaryOperators: false
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
+SpaceBeforeCpp11BracedList: false
 
