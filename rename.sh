@@ -10,7 +10,7 @@ for file in `/usr/bin/find . -name "*.*"`
 do
     newfile=$file
     newfile=${newfile/.\//}
-    newfile=${newfile//\//-}
+    newfile=${newfile//\//_}
     newfile=${newfile// /}
     if [ $# -ge 1  ]; then
         if [ $1 -eq "1" ]; then
