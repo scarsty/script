@@ -22,3 +22,4 @@
 | video2img_sub.bat           | 转换视频到图片子程序                             |
 | 关闭测试模式.bat            | 关闭Windows测试模式                              |
 | 恢复图标.cmd                | 删除desktop.ini                                  |
+| update_submodule.bat                | 更新git的子module                                  |
