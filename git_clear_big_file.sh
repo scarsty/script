@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # remove file(s) from git history
 # $1 file(s) name
 # $2 1 push after removing
